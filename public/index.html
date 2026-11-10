@@ -1208,7 +1208,7 @@ function syncFull() {
 
 // Agent filter: one chip per client in use, any number selected; none means all.
 function renderChips() {
-  const pool = state.data.sessions.filter((s) => (state.showSub || !s.subagent) && (state.showIdle || s.status !== 'idle'));
+  const pool = state.data.sessions.filter((s) => (state.showSub || !s.subagent) && (state.showIdle || s.status !== 'idle') && !dismissedSessions.has(s.key));
   const count = new Map();
   for (const s of pool) count.set(s.agent, (count.get(s.agent) || 0) + 1);
   const order = Object.keys(OFFICE_AGENT_BADGES);
