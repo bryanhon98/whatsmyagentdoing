@@ -4,6 +4,7 @@
 (() => {
   const S = {
     en: {
+      dismissAgent: "Dismiss agent", restoreDismissed: "Restore dismissed agents",
       settings: "Settings", scene: "Scene", agents: "Agents", language: "Language",
       showAgent: "Agent badges",
       pip: "Pop out",
@@ -27,6 +28,7 @@
       doneNote: (p) => `${p} is done`,
     },
     'zh-TW': {
+      dismissAgent: "讓代理離開", restoreDismissed: "還原已隱藏的代理",
       settings: "設定", scene: "場景", agents: "顯示哪些 Agent", language: "語言",
       showAgent: "Agent 標記",
       pip: "子母畫面",
@@ -50,6 +52,7 @@
       doneNote: (p) => `${p} 完成了`,
     },
     'zh-CN': {
+      dismissAgent: "让智能体离开", restoreDismissed: "恢复已隐藏的智能体",
       settings: "设置", scene: "场景", agents: "显示哪些 Agent", language: "语言",
       showAgent: "Agent 标记",
       pip: "画中画",
@@ -73,6 +76,7 @@
       doneNote: (p) => `${p} 完成了`,
     },
     ja: {
+      dismissAgent: "エージェントを退出させる", restoreDismissed: "非表示のエージェントを復元",
       settings: "設定", scene: "シーン", agents: "エージェント", language: "言語",
       showAgent: "エージェントの印",
       pip: "ポップアウト",
@@ -96,6 +100,7 @@
       doneNote: (p) => `${p} が完了しました`,
     },
     ko: {
+      dismissAgent: "에이전트 내보내기", restoreDismissed: "숨긴 에이전트 복원",
       settings: "설정", scene: "장면", agents: "에이전트", language: "언어",
       showAgent: "에이전트 표시",
       pip: "팝아웃",
@@ -119,6 +124,7 @@
       doneNote: (p) => `${p} 완료`,
     },
     es: {
+      dismissAgent: "Retirar agente", restoreDismissed: "Restaurar agentes ocultos",
       settings: "Ajustes", scene: "Escenario", agents: "Agentes", language: "Idioma",
       showAgent: "Insignias de agentes",
       pip: "Ventana flotante",
@@ -142,6 +148,7 @@
       doneNote: (p) => `${p} terminó`,
     },
     fr: {
+      dismissAgent: "Masquer cet agent", restoreDismissed: "Restaurer les agents masqués",
       settings: "Réglages", scene: "Scène", agents: "Agents", language: "Langue",
       showAgent: "Badges des agents",
       pip: "Fenêtre flottante",
@@ -165,6 +172,7 @@
       doneNote: (p) => `${p} a terminé`,
     },
     de: {
+      dismissAgent: "Agent ausblenden", restoreDismissed: "Ausgeblendete Agenten wiederherstellen",
       settings: "Einstellungen", scene: "Szene", agents: "Agents", language: "Sprache",
       showAgent: "Agent-Abzeichen",
       pip: "Mini-Fenster",
@@ -188,6 +196,7 @@
       doneNote: (p) => `${p} ist fertig`,
     },
     pt: {
+      dismissAgent: "Dispensar agente", restoreDismissed: "Restaurar agentes ocultos",
       settings: "Configurações", scene: "Cenário", agents: "Agentes", language: "Idioma",
       showAgent: "Identificação dos agentes",
       pip: "Janela flutuante",
