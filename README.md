@@ -76,6 +76,10 @@ Copilot CLI, OMP, Pi, Kimi Code, DeepSeek Harness (DSH), Grok Build, OpenCode an
 local session stores. (The Google Antigravity desktop app keeps its conversations in an undocumented binary
 store and isn't supported yet; its `agy` CLI is.)
 
+## Optional: dismiss office agents (this fork)
+
+Click an agent, then **Dismiss agent** to have it walk out of the office without deleting or stopping its session. Dismissals are remembered per browser; use **Settings → Restore dismissed agents** to bring them back. A newly active dismissed session automatically returns. See [dismissal documentation](docs/dismiss-agent.md).
+
 ## Options
 
 ```
